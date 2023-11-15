@@ -57,7 +57,7 @@ int main(__attribute__((unused)) int argc, char **argv, char **environ)
 	int rec = 0, x = 0;
 	int res;
 	bool xchnge = 0;
-:
+
 	while (1 && !xchnge)
 	{
 		if (!isatty(STDIN_FILENO))
